@@ -1,0 +1,20 @@
+Testing priority queue class: NoPQ
+NoPQ FAIL: Unable to construct instance of NoPQ
+   0 TOTAL TESTS RUN
+Testing priority queue class: PQ01
+  11 PASSED
+   0 FAILED
+  11 TOTAL TESTS RUN
+Testing priority queue class: PQ02
+FAILED test00isEmpty: unexpectedly threw java.lang.NullPointerException
+FAILED test09insertNull: unexpectedly threw java.util.NoSuchElementException
+   9 PASSED
+   2 FAILED
+  11 TOTAL TESTS RUN
+Testing priority queue class: PQ03
+FAILED test04insertRemoveMany: unexpectedly threw java.lang.NullPointerException
+FAILED test06manyDataItems: 1,2,3 entered into PQ. then 3 and 2 are removed, so expected size of PQ should be 1, manyDataItems found PQ has a size of 2. 
+FAILED test09insertNull: unexpectedly threw java.lang.IllegalArgumentException
+   8 PASSED
+   3 FAILED
+  11 TOTAL TESTS RUN
